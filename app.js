@@ -15,7 +15,7 @@ config({ path: './data/config.env' });
 const app = express();
 
 // CORS configuration
-const allowedOrigins = ['https://healthy-teeth-dental.netlify.app/', 'http://localhost:4200'];
+const allowedOrigins = ['https://healthy-teeth-dental.netlify.app', 'http://localhost:4200'];
 
 const corsOptions = {
   origin: (origin, callback) => {
